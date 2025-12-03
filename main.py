@@ -5,6 +5,7 @@ def main():
     print("=== MENÚ PRINCIPAL ===")
     print("1. Calcular número en Fibonacci")
     print("2. Obtener número primo en una posición")
+    print("4. Generar serie números perfectos")
     opcion = input("Seleccione una opción: ")
 
     if opcion == "1":
