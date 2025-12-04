@@ -10,7 +10,8 @@ def dividir(a, b):
     return a / b
 
 
-if __name__ == "__main__":
+def run_operaciones():
+    """Menú interactivo para operaciones básicas."""
     print("=== OPERACIONES BÁSICAS ===")
     print("1. Sumar")
     print("2. Multiplicar")
@@ -35,3 +36,7 @@ if __name__ == "__main__":
 
     else:
         print("Opción no válida")
+
+
+if __name__ == "__main__":
+    run_operaciones()
